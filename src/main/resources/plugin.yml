@@ -1,0 +1,6 @@
+name: EventGPTS
+version: '2.3421'
+main: com.moregrayner.plugins.eventGPTS.EventGPTS
+api-version: '1.21'
+authors: [ 짱레인 ]
+description: 윈터오브짱레인
