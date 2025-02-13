@@ -3,7 +3,6 @@ package com.moregrayner.plugins.eventGPTS;
 
 import org.bukkit.ChatColor;
 import org.bukkit.block.Block;
-import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
@@ -19,14 +18,10 @@ import org.bukkit.event.inventory.InventoryOpenEvent;
 import org.bukkit.event.inventory.InventoryType;
 import org.bukkit.event.player.*;
 import org.bukkit.inventory.Inventory;
-import org.bukkit.inventory.meta.components.FoodComponent;
-
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.UUID;
-
-import static org.bukkit.Bukkit.getLogger;
 
 public class EventX implements Listener { //Boolean이든 String이든 통일할 필요가 있을 듯
 
